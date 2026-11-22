@@ -1,0 +1,26 @@
+services:
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./searxng:/etc/searxng
+    environment:
+      - SEARXNG_BASE_URL=http://localhost:8080/
+    restart: unless-stopped
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+
+  websearch:
+    build: .
+    container_name: websearch
+    ports:
+      - "8001:8000"
+    environment:
+      - SEARX_URL=http://searxng:8080/search
+      - JINA_API_KEY=${JINA_API_KEY}
+    depends_on:
+      - searxng
+    restart: unless-stopped

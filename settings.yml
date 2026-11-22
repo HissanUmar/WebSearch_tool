@@ -1,0 +1,18 @@
+use_default_settings: true
+
+server:
+  secret_key: "change-me-to-a-random-string"
+  limiter: false        # private instance, no rate limiter
+  image_proxy: false
+
+search:
+  formats:
+    - html
+    - json
+
+outgoing:
+  request_timeout: 1.2        # per-engine timeout, keeps slow engines from stalling
+  max_request_timeout: 1.8
+  pool_connections: 100
+  pool_maxsize: 20
+  enable_http2: true
