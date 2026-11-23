@@ -1,0 +1,487 @@
+{
+  "generated_at": "2026-11-23T18:37:25",
+  "total": 10,
+  "hits": 5,
+  "rows": [
+    {
+      "task_id": "e1fc63a2-da7a-432f-be78-7c4a95598703",
+      "expected": "17",
+      "question": "If Eliud Kipchoge could maintain his record-making marathon pace indefinitely, how many thousand hours would it take him to run the distance between the Earth and the Moon its closest approach? Please use the minimum perigee value on the Wikipedia page for the Moon when carrying out your calculation. Round your result to the nearest 1000 hours and do not use any comma separators if necessary.",
+      "hit": false,
+      "matches": [],
+      "results": [
+        {
+          "score": 0.001,
+          "url": "https://support.google.com/youtubetv/answer/9545212?hl=en",
+          "title": "Report an unauthorized charge - YouTube TV Help - Google Help",
+          "fetched": true,
+          "text": "Report an unauthorized charge - YouTube TV Help - Google Help. For example, a YouTube TV charge will appear as GOOGLE*YouTube TV. If the charge in question isn't in one of these formats, it …"
+        },
+        {
+          "score": 0.001,
+          "url": "https://support.google.com/youtube/answer/6159254?hl=nl",
+          "title": "Geen toegang tot YouTube",
+          "fetched": true,
+          "text": "Geen toegang tot YouTube. Als je openbare video's op YouTube hebt staan, kun je deze nog steeds verbergen of verwijderen, ook al heb je geen toegang tot …"
+        },
+        {
+          "score": 0.001,
+          "url": "https://support.google.com/youtube/troubleshooter/13572679?hl=en-GB",
+          "title": "Get help from YouTube support",
+          "fetched": true,
+          "text": "Get help from YouTube support. What can we help with? Watching videos on YouTube Something that I purchased My YouTube account or channel Content that I …"
+        },
+        {
+          "score": 0.0,
+          "url": "https://support.google.com/youtube/answer/161805?hl=es-419&co=GENIE.Platform%3DDesktop",
+          "title": "Cómo crear una cuenta en YouTube",
+          "fetched": false,
+          "text": "Cómo crear una cuenta en YouTube. Para acceder a YouTube, debes crear una cuenta de Google. Con&nbsp;ella, podrás usar&nbsp;muchas funciones de …"
+        }
+      ],
+      "timings": {
+        "search": 3.345,
+        "rerank_snippets": 0.152,
+        "fetch": 4.02,
+        "rerank_chunks": 0.02,
+        "total": 7.541
+      }
+    },
+    {
+      "task_id": "8e867cd7-cff9-4e6c-867a-ff5ddc2550be",
+      "expected": "3",
+      "question": "How many studio albums were published by Mercedes Sosa between 2000 and 2009 (included)? You can use the latest 2022 version of english wikipedia.",
+      "hit": true,
+      "matches": [
+        {
+          "url": "http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEgjvaw8Rs0rsQd9iRah-xRWOW3dGAJeJlp8YH8-gZ6llBvZQkkvdnz0uAn-lX6c-ilBGea1S_XJpdMCjlQkERLDRMJuYecV4SitKSgNaqzSe0IgUwsCA-kEf_QrVNrLh31RCgmZ6vw2EhFS20AiX6_W8v26sSEzt1lwQVOrnJK0nQEGvmOEmZ5B53xWcl4yvX2ynAGR27OgM",
+          "title": "Mercedes Sosa - albums - Muziekweb",
+          "score": 0.5062
+        },
+        {
+          "url": "http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEga-XLw4j17TefQM6mzQAnNK1O9qmrX7nH2K0LpbzmUIoRb7csJYJtQ6CQ7m2C2AeyuLuDGt_F8jMtoxDhwwExQbot9nhECiWMtRB5bKgUaaBzkIk-SyO07PrGoXMkTcFjjKFBdm4F3VJdo6uMzJsyl4CcyhwJ_DlZXzZQ8JBvwfqXwKoTZ1rgie6lFq40gE",
+          "title": "Mercedes Sosa — Biography, Discography, Albums & Expert Reviews ...",
+          "score": 0.1344
+        }
+      ],
+      "results": [
+        {
+          "score": 0.9997,
+          "url": "http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEinagrVBHIUx4C-uBtxQWed8pA1eCV4XpP_z8jfXsbfCdAE_e4gjt9DhLZT4PQeeKG4Os0SNBBcb4gxeTyoW8XgznvJ4s1hEPULpwfDR1z22qsKkaUtrCio4gPsV-VzHc_lP2qfGlUBLUCi5Hav4mpWGz3kgdbjIpPTnZiSxVyMa0peV0nIZWu2fWEKKASR_Weod-ZJB4U1UA",
+          "title": "Mercedes Sosa's Studio Albums 2000-2009 | Shared Grok Conversation",
+          "fetched": false,
+          "text": "Mercedes Sosa's Studio Albums 2000-2009 | Shared Grok Conversation. How many studio albums were published by Mercedes Sosa between 2000 and 2009 (included)? You can use"
+        },
+        {
+          "score": 0.5062,
+          "url": "http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEgjvaw8Rs0rsQd9iRah-xRWOW3dGAJeJlp8YH8-gZ6llBvZQkkvdnz0uAn-lX6c-ilBGea1S_XJpdMCjlQkERLDRMJuYecV4SitKSgNaqzSe0IgUwsCA-kEf_QrVNrLh31RCgmZ6vw2EhFS20AiX6_W8v26sSEzt1lwQVOrnJK0nQEGvmOEmZ5B53xWcl4yvX2ynAGR27OgM",
+          "title": "Mercedes Sosa - albums - Muziekweb",
+          "fetched": false,
+          "text": "Mercedes Sosa - albums - Muziekweb. Haydée Mercedes \"La Negra\" Sosa (; 9 July 1935Mercedes Sosa at BrainyHistory.com – 4 October 2009) was an Argentine singer who was popular throughout Latin America and many countries outside the region. With her roots in Argentine folk music, Sosa became one of the preeminent exponents of ..."
+        },
+        {
+          "score": 0.4089,
+          "url": "http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEgDUNDe9pdrpxYspjNAjZgg-KwfdR35zXCU6YcxIBA_iFIlMbv4YTe24HvxlKX_WRWxfjgdipPj3r8pmQgYgDq7013fjxkPitrZ2Q72LLn4SQ5IaiP1UXbiqxLHeMSgkSh8BPRrFnjfSEy22wIR-8bsi2kSiHkIdTJwe3Cc4ZGgA",
+          "title": "Mercedes Sosa - Wikipedia",
+          "fetched": false,
+          "text": "Mercedes Sosa - Wikipedia. Her career spanned four decades ... 2011), including a Latin Grammy Lifetime Achievement Award in 2004 and two posthumous Latin Grammy Award for Best Folk Album in 2009 and 2011. She won the Premio Gardel in 2000, the main musical award in Argentina. She served as an ambassador for UNICEF. Sosa was born on ..."
+        },
+        {
+          "score": 0.1344,
+          "url": "http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEga-XLw4j17TefQM6mzQAnNK1O9qmrX7nH2K0LpbzmUIoRb7csJYJtQ6CQ7m2C2AeyuLuDGt_F8jMtoxDhwwExQbot9nhECiWMtRB5bKgUaaBzkIk-SyO07PrGoXMkTcFjjKFBdm4F3VJdo6uMzJsyl4CcyhwJ_DlZXzZQ8JBvwfqXwKoTZ1rgie6lFq40gE",
+          "title": "Mercedes Sosa — Biography, Discography, Albums & Expert Reviews ...",
+          "fetched": false,
+          "text": "Mercedes Sosa — Biography, Discography, Albums & Expert Reviews .... In fall 2000, Sosa won a Grammy for Best Folk Album for Misa Criolla at the first annual Latin Grammy Awards, and again in 2003 and 2006 for Acústico and Corazón Libre, respectively. On October 4, 2009, after receiving multiple Grammy nominations for the album, Cantora, Mercedes Sosa passed away after a long battle with kidney disease."
+        }
+      ],
+      "timings": {
+        "search": 1.648,
+        "rerank_snippets": 0.032,
+        "fetch": 0.671,
+        "rerank_chunks": 0.015,
+        "total": 2.366
+      }
+    },
+    {
+      "task_id": "ec09fa32-d03f-4bf8-84b0-1f16922c3ae4",
+      "expected": "3",
+      "question": "You have been selected to play the final round of the hit new game show 'Pick That Ping-Pong'. A device consisting of a winding clear ramp and a series of pistons controls the outcome of the game. The ramp begins with 100 numbered ping-pong balls, arranged in ascending order from 1 to 100. Which ball should you choose to maximize your odds of winning the big prize? Please provide your answer as the number of the ball selected.",
+      "hit": true,
+      "matches": [
+        {
+          "url": "https://issuu.com/latitude38/docs/latitude38210dunse",
+          "title": "Latitude 38 December 1994 - Issuu",
+          "score": 0.0
+        },
+        {
+          "url": "https://issuu.com/latitude38/docs/latitude38210dunse",
+          "title": "Latitude 38 December 1994 - Issuu",
+          "score": 0.0
+        }
+      ],
+      "results": [
+        {
+          "score": 0.7572,
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/da8860a2fe8ddb7589136853bcc313fc-Paper-Conference.pdf",
+          "title": "VALIDATABLE AGENT TRAJECTORY VIA TEST-TIME EXPLORATION",
+          "fetched": false,
+          "text": "VALIDATABLE AGENT TRAJECTORY VIA TEST-TIME EXPLORATION. ... final round of the hit new game show \"Pick That Ping-. Pong\". In this round ... A device consisting of a winding clear ramp and a series of pistons controls the ..."
+        },
+        {
+          "score": 0.001,
+          "url": "https://research.google.com/youtube8m/csv/2/vocabulary.csv",
+          "title": "link - Google Research",
+          "fetched": true,
+          "text": "link - Google Research. ... Game,https://en.wikipedia.org/wiki/Game,Games,,,\"A game is structured form of play, usually undertaken for enjoyment and sometimes used as an educational ..."
+        },
+        {
+          "score": 0.0,
+          "url": "https://issuu.com/latitude38/docs/latitude38210dunse",
+          "title": "Latitude 38 December 1994 - Issuu",
+          "fetched": false,
+          "text": "Latitude 38 December 1994 - Issuu. Dec 1, 1994 ... Charter a New Beneteau We have many new Beneteaus joining the fleet. They are the boats chosen first to charter by sailors the world over."
+        },
+        {
+          "score": 0.0,
+          "url": "https://issuu.com/latitude38/docs/latitude38210dunse",
+          "title": "Latitude 38 December 1994 - Issuu",
+          "fetched": false,
+          "text": "Latitude 38 December 1994 - Issuu. Dec 1, 1994 ... Charter a New Beneteau We have many new Beneteaus joining the fleet. They are the boats chosen first to charter by sailors the world over."
+        }
+      ],
+      "timings": {
+        "search": 1.596,
+        "rerank_snippets": 0.117,
+        "fetch": 4.02,
+        "rerank_chunks": 0.04,
+        "total": 5.775
+      }
+    },
+    {
+      "task_id": "5d0080cb-90d7-4712-bc33-848150e917d3",
+      "expected": "0.1777",
+      "question": "What was the volume in m^3 of the fish bag that was calculated in the University of Leicester paper 'Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?'",
+      "hit": true,
+      "matches": [
+        {
+          "url": "https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496",
+          "title": "Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+          "score": 0.9969
+        }
+      ],
+      "results": [
+        {
+          "score": 1.0002,
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40594/44555",
+          "title": "Scope Delineation Before Localization: A Two-Stage Framework for ...",
+          "fetched": true,
+          "text": "Scope Delineation Before Localization: A Two-Stage Framework for .... the volume in m3 of the fish bag calculated in the Univer- sity of Leicester paper 'Can Hiccup Supply Enough Fish to. Maintain a Dragon's Diet?”' The ground ..."
+        },
+        {
+          "score": 0.9996,
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3797113",
+          "title": "Spectrum-Based Failure Attribution for Multi-agent Systems",
+          "fetched": false,
+          "text": "Spectrum-Based Failure Attribution for Multi-agent Systems. Aug 1, 2025 ... m3 of the fish bag that was calculated in the university of Leicester paper 'Can Hiccup Supply. Enough Fish to Maintain a Dragon's Diet?”'."
+        },
+        {
+          "score": 0.9969,
+          "url": "https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496",
+          "title": "Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+          "fetched": true,
+          "text": "Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?. Mar 31, 2017 ... The bag used to provide food was calculated as having a capacity of. 0.1777 m3, and could hold 56 Atlantic salmon and 13. Icelandic cod. Hiccup ..."
+        },
+        {
+          "score": 0.9968,
+          "url": "https://journals.le.ac.uk/index.php/jist/article/view/733/684",
+          "title": "View of Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+          "fetched": false,
+          "text": "View of Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?. Amal DouaThe Centre for Interdisciplinary Science, University of Leicester ... Size of the bagHiccup is said to be 1.625 m tall [6], and using average male ..."
+        }
+      ],
+      "timings": {
+        "search": 1.651,
+        "rerank_snippets": 0.047,
+        "fetch": 4.009,
+        "rerank_chunks": 0.013,
+        "total": 5.721
+      }
+    },
+    {
+      "task_id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+      "expected": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+      "question": "Of the authors (First M. Last) that worked on the paper 'Pie Menus or Linear Menus, Which Is Better?' in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+      "hit": true,
+      "matches": [
+        {
+          "url": "http:///go/v1/AcOJwmDHKsDeawRBQAHwheTQZySCvxUdLcPeZqJVglwuMj76hvjEuRSG18TiyphlPevAFniOyzo9w6IHzyv61EMj2uDqVHek6AJZ3R0mceI3dVk_IvSoTZu942HBZg8A3RAQMh-XAtxQtl3dYzS6YFk56RmsWnI8tyrS6FWn3ohnL0icxibDFzOtaEn5cnbqJbKEZD_5EtfHtH8vqya213kLArSBBmEC00FXOA1teAnXMK9O_NkMsQQ",
+          "title": "WebVoyager/data/GAIA_web.jsonl at main · MinorJerry/WebVoyager",
+          "score": 0.8857
+        }
+      ],
+      "results": [
+        {
+          "score": 1.0006,
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/48dcc43a534c5b582f9d0fdb778e9b84-Paper-Conference.pdf",
+          "title": "Optimized Workforce Learning - OWL - NIPS",
+          "fetched": true,
+          "text": "Optimized Workforce Learning - OWL - NIPS. Last) that worked on the paper “Pie Menus or Linear Menus, ... ” in 2015, what was the title of the first paper authored by the one that had authored prior papers ..."
+        },
+        {
+          "score": 0.8857,
+          "url": "http:///go/v1/AcOJwmDHKsDeawRBQAHwheTQZySCvxUdLcPeZqJVglwuMj76hvjEuRSG18TiyphlPevAFniOyzo9w6IHzyv61EMj2uDqVHek6AJZ3R0mceI3dVk_IvSoTZu942HBZg8A3RAQMh-XAtxQtl3dYzS6YFk56RmsWnI8tyrS6FWn3ohnL0icxibDFzOtaEn5cnbqJbKEZD_5EtfHtH8vqya213kLArSBBmEC00FXOA1teAnXMK9O_NkMsQQ",
+          "title": "WebVoyager/data/GAIA_web.jsonl at main · MinorJerry/WebVoyager",
+          "fetched": false,
+          "text": "WebVoyager/data/GAIA_web.jsonl at main · MinorJerry/WebVoyager. {\"task_id\": \"46719c30-f4c3-4cad-be07-d5cb21eee6bb\", \"Level\": 1, \"Final answer\": \"Mapping Human Oriented Information to Software Agents for Online Systems Usage\", \"id\": \"level1-4\", \"web\": \"https://www.google.com/\", \"ques\": \"Of the authors (First M. Last) that worked on the paper \\\"Pie Menus or Linear Menus, Which Is Better?\\\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?\"}"
+        },
+        {
+          "score": 0.4651,
+          "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus,-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+          "title": "Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+          "fetched": false,
+          "text": "Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar. This paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail. This paper is about a continuing investigation aiming to find o ut which menu type is more useable on a web site or application."
+        },
+        {
+          "score": 0.1343,
+          "url": "http:///go/v1/AcOJwmDHKsDeawRBQAHwheTQZySCvxUdLcPeZqJVg83DWjJQegJrFP1U_xd-3YOt7dLNukhNVNg6Te4CczCw9LzhKb903MhU8zSgtAej7CNHhpEDs_k8jEJQNSyE0enZNhJEGcSsa2P8jvg9HOSsAiTGZPFxWIu4kJrJSbZ0gC1GeJUpKdJhW1p9a_RekMpQjJZq9M6k5UoQ6TbHCw",
+          "title": "Pietro Murano - Publications",
+          "fetched": false,
+          "text": "Pietro Murano - Publications. Murano, Pietro & Khan, Iram N. (2015) Pie Menus or Linear Menus, Which Is Better? - PDF, Journal of Emerging Trends in Computing and Information Sciences, Vol."
+        }
+      ],
+      "timings": {
+        "search": 1.503,
+        "rerank_snippets": 0.075,
+        "fetch": 3.208,
+        "rerank_chunks": 0.03,
+        "total": 4.817
+      }
+    },
+    {
+      "task_id": "4b6bb5f7-f634-410e-815d-e673ab7f8632",
+      "expected": "THE CASTLE",
+      "question": "In Series 9, Episode 11 of Doctor Who, the Doctor is trapped inside an ever-shifting maze. What is this location called in the official script for the episode? Give the setting exactly as it appears in the first scene heading.",
+      "hit": false,
+      "matches": [],
+      "results": [
+        {
+          "score": 0.4783,
+          "url": "https://tardis.guide/story/heaven-sent/",
+          "title": "Heaven Sent · Doctor Who S9 • Episode 11 · TARDIS Guide",
+          "fetched": false,
+          "text": "Heaven Sent · Doctor Who S9 • Episode 11 · TARDIS Guide. As if the death of his best friend wasn't enough, the Doctor's situation has only gotten worse. What initially started as an attempt to help clear someone of a false murder charge has evolved into to something much worse. Now trapped in an old rusty castle in the middle of an ocean, the Time Lord is being stalked by a mysterious creature that only pauses when he gives up his deepest ..."
+        },
+        {
+          "score": 0.0751,
+          "url": "https://tardis.guide/story/heaven-sent/transcript/",
+          "title": "Transcript for episode 'Heaven Sent' • Doctor Who",
+          "fetched": true,
+          "text": "Transcript for episode 'Heaven Sent' • Doctor Who. As if the death of his best friend wasn't enough, the Doctor's situation has only gotten worse. What initially started as an attempt to help clear someone of a false murder charge has evolved into to something much worse. Now trapped in an old rusty castle in the middle of an ocean, the Time Lord is being stalked by a mysterious creature that only pauses when he gives up his deepest ..."
+        },
+        {
+          "score": 0.0211,
+          "url": "https://tardis.fandom.com/wiki/Heaven_Sent_(TV_story)",
+          "title": "Heaven Sent (TV story) | Tardis | Fandom",
+          "fetched": false,
+          "text": "Heaven Sent (TV story) | Tardis | Fandom. Heaven Sent was the eleventh and penultimate episode of series 9 of Doctor Who. The episode shows the Doctor dealing with and grieving over the death of Clara Oswald, whom he lost to the Quantum Shade in the previous episode. The vast majority of the episode includes just the Doctor by himself with no other characters present, save the veiled figure that menaces him throughout. Jenna Coleman ..."
+        },
+        {
+          "score": 0.0161,
+          "url": "https://tardis.fandom.com/wiki/Heaven_Sent_(TV_story)",
+          "title": "Heaven Sent (TV story) | Tardis | Fandom",
+          "fetched": false,
+          "text": "Heaven Sent (TV story) | Tardis | Fandom. Heaven Sent was the eleventh and penultimate episode of series 9 of Doctor Who. The episode shows the Doctor dealing with and grieving over the death of Clara Oswald, whom he lost to the Quantum Shade in the previous episode. The vast majority of the episode includes just the Doctor by himself with no other characters present, save the veiled figure that menaces him throughout. Jenna Coleman ..."
+        }
+      ],
+      "timings": {
+        "search": 1.234,
+        "rerank_snippets": 0.061,
+        "fetch": 4.018,
+        "rerank_chunks": 0.012,
+        "total": 5.326
+      }
+    },
+    {
+      "task_id": "dc28cf18-6431-458b-83ef-64b3ce566c10",
+      "expected": "2",
+      "question": "My family reunion is this week, and I was assigned the mashed potatoes to bring. The attendees include my married mother and father, my twin brother and his family, my aunt and her family, my grandma and her brother, her brother's daughter, and his daughter's family. All the adults but me have been married, and no one is divorced or remarried, but my grandpa and my grandma's sister-in-law passed away last year. All living spouses are attending. My brother has two children that are still kids, my aunt has one six-year-old, and my grandma's brother's daughter has three kids under 12. I figure each adult will eat about 1.5 potatoes of mashed potatoes and each kid will eat about 1/2 a potato of mashed potatoes, except my second cousins don't eat carbs. The average potato is about half a pound, and potatoes are sold in 5-pound bags. How many whole bags of potatoes do I need? Just give the number.",
+      "hit": false,
+      "matches": [],
+      "results": [
+        {
+          "score": 0.0011,
+          "url": "https://www.doyou10q.com/answer/2018/3?full_list=true",
+          "title": "Think about a major milestone that happened with ... - Do You 10Q?",
+          "fetched": true,
+          "text": "Think about a major milestone that happened with ... - Do You 10Q?. There have been so many! My uncle got cancer and married, my brother married and got a baby with his wife, my family-in-law had two cat funerals and one ..."
+        },
+        {
+          "score": 0.0002,
+          "url": "https://www.middlebury.edu/alumni-and-families/ways-engage/reunion/highlights",
+          "title": "Reunion Highlights - Middlebury College",
+          "fetched": false,
+          "text": "Reunion Highlights - Middlebury College. While most of their families are incredibly supportive especially fathers and brothers, we have ... And that brave woman, she decided to bring risk to her family ..."
+        },
+        {
+          "score": 0.0002,
+          "url": "https://www.math.ubc.ca/~cayf/Gockley.pdf",
+          "title": "Descendants and Ancestors of Samuel Carpenter Gockley",
+          "fetched": false,
+          "text": "Descendants and Ancestors of Samuel Carpenter Gockley. His sister Hannah, a pediatrician, and her husband lived for several ... Michelle's extended family, which includes her brother, now a doctor, her father,."
+        },
+        {
+          "score": 0.0001,
+          "url": "https://www.literacymn.org/sites/default/files/journeys_2015_online.pdf",
+          "title": "Journeys - Literacy Minnesota",
+          "fetched": false,
+          "text": "Journeys - Literacy Minnesota. who I love: my father, mother, brother, oldest daughter, and Guadalupe. Some ... married my mom, who is the last child in her family. He has brown eyes ..."
+        }
+      ],
+      "timings": {
+        "search": 1.651,
+        "rerank_snippets": 0.073,
+        "fetch": 4.018,
+        "rerank_chunks": 0.045,
+        "total": 5.788
+      }
+    },
+    {
+      "task_id": "b816bfce-3d80-4913-a07d-69b752ce6377",
+      "expected": "fluffy",
+      "question": "In Emily Midkiff's June 2014 article in a journal named for the one of Hreidmar's sons that guarded his house, what word was quoted from two different authors in distaste for the nature of dragon depictions?",
+      "hit": true,
+      "matches": [
+        {
+          "url": "https://www.seaart.ai/search/%22fluffy%22+word+quoted+two+authors+distaste+nature+dragon+depictions+Emily+Midkiff+article+Fafnir+journal+named+one+of+Hreidmar's+sons+guarded+house+June+2014+%22Dragons+are+Tricksy%22",
+          "title": "\"fluffy\"+word+quoted+two+authors+distaste+nature+dragon+depictions ...",
+          "score": 0.9989
+        }
+      ],
+      "results": [
+        {
+          "score": 1.0008,
+          "url": "https://www.lespac.com/en/montreal/emily-midkiff-june-2014-article-journal-named-for-hreidmar-son-that-guarded-his-house-dragon-depictions-word-quoted-authors-distaste-dragon-depictions-what-word_aZ232IkVtaWx5IE1pZGtpZmYiICJKdW5lIDIwMTQiIGFydGljbGUgImpvdXJuYWwiICJuYW1lZCBmb3IiICJIcmVpZG1hciIgInNvbiIgInRoYXQgZ3VhcmRlZCBoaXMgaG91c2UiIGRyYWdvbiBkZXBpY3Rpb25zIHdvcmQgcXVvdGVkIGF1dGhvcnMgZGlzdGFzdGUgZHJhZ29uIGRlcGljdGlvbnMgd2hhdCB3b3Jkg17567k1R1.jsa",
+          "title": "\"Emily Midkiff\" \"June 2014\" article \"journal\" \"named for\" \"Hreidmar ...",
+          "fetched": true,
+          "text": "\"Emily Midkiff\" \"June 2014\" article \"journal\" \"named for\" \"Hreidmar .... Whether you want to sell or buy something over the term \"Emily Midkiff\" \"June 2014\" article \"journal\" \"named for\" \"Hreidmar\" \"son\" \"that guarded his house\" dragon depictions word quoted authors distaste dragon depictions what word, think of LesPAC, the best classified ads site in Quebec to sell, buy or rent new or used items."
+        },
+        {
+          "score": 0.9989,
+          "url": "https://www.seaart.ai/search/%22fluffy%22+word+quoted+two+authors+distaste+nature+dragon+depictions+Emily+Midkiff+article+Fafnir+journal+named+one+of+Hreidmar's+sons+guarded+house+June+2014+%22Dragons+are+Tricksy%22",
+          "title": "\"fluffy\"+word+quoted+two+authors+distaste+nature+dragon+depictions ...",
+          "fetched": false,
+          "text": "\"fluffy\"+word+quoted+two+authors+distaste+nature+dragon+depictions .... Explore over thousands of Al-generated artworks about \"fluffy\"+word+quoted+two+authors+distaste+nature+dragon+depictions+Emily+Midkiff+article+Fafnir+journal+named+one+of+Hreidmar's+sons+guarded+house+June+2014+\"Dragons+are+Tricksy\" in SeaArt!"
+        },
+        {
+          "score": 0.9989,
+          "url": "https://www.lespac.com/montreal/emily-midkiff-article-journal-named-for-hreidmar-sons-june-2014_aZ095IkVtaWx5IiBNaWRraWZmIGFydGljbGUgImpvdXJuYWwgbmFtZWQgZm9yIiAiSHJlaWRtYXIiICJzb25zIiBKdW5lIDIwMTQg17567k1R1.jsa",
+          "title": "\"Emily\" Midkiff article \"journal named for\" \"Hreidmar\" \"sons\" June 2014 ...",
+          "fetched": true,
+          "text": "\"Emily\" Midkiff article \"journal named for\" \"Hreidmar\" \"sons\" June 2014 .... Que vous souhaitiez vendre ou acheter quelque chose par rapport au terme \"Emily\" Midkiff article \"journal named for\" \"Hreidmar\" \"sons\" June 2014, pensez à LesPAC, le meilleur site d'annonces classées au Québec pour vendre, acheter ou louer des articles neufs ou usagés."
+        },
+        {
+          "score": 0.9969,
+          "url": "https://letterboxd.com/search/articles/Emily+Midkiff+June+2014+article+Hreidmar's+sons+journal+name+(site:academic.edu+OR+site:jstor.org+OR+site:projectmuse.com)/",
+          "title": "Search results for Emily Midkiff June 2014 article Hreidmar's sons ...",
+          "fetched": false,
+          "text": "Search results for Emily Midkiff June 2014 article Hreidmar's sons .... Showing matches for \"Emily Midkiff June 2014 article Hreidmar's sons journal name (site:academic.edu OR site:jstor.org OR site:projectmuse.com)\" Show more results"
+        }
+      ],
+      "timings": {
+        "search": 1.316,
+        "rerank_snippets": 0.051,
+        "fetch": 4.015,
+        "rerank_chunks": 0.02,
+        "total": 5.403
+      }
+    },
+    {
+      "task_id": "72e110e7-464c-453c-a309-90a95aed6538",
+      "expected": "Guatemala",
+      "question": "Under DDC 633 on Bielefeld University Library's BASE, as of 2020, from what country was the unknown language article with a flag unique from the others?",
+      "hit": false,
+      "matches": [],
+      "results": [
+        {
+          "score": 1.0007,
+          "url": "https://www.linkedin.com/jobs/solution-the-unknown-language-article-with-a-flag-unique-from-the-others-ddc-633-base-bielefeld-library-2020-country-article-unknown-language-flag-unique-others-country-was-the-country-was-the-unknown-language-article-with-a-flag-unique-from-the-others-under-ddc-633-on-bielefeld-university-library%27s-base-as-of-2020-from-what-country-was-the-unknown-language-article-with-a-flag-unique-from-the-others%3F-the-country-was...-jobs",
+          "title": "4,054,000+ Solution The Unknown Language Article With A Flag Unique ...",
+          "fetched": true,
+          "text": "4,054,000+ Solution The Unknown Language Article With A Flag Unique .... Today&rsquo;s top 4,054,000+ Solution The Unknown Language Article With A Flag Unique From The Others Ddc 633 Base Bielefeld Library 2020 Country Article Unknown Language Flag Unique Others ..."
+        },
+        {
+          "score": 1.0005,
+          "url": "https://digitalcollections.archives.nysed.gov/index.php/Search/objects?search=unknown+language+article+unique+flag+DDC+633+Bielefeld+University+2020",
+          "title": "Digital Collections : Search Objects : unknown language article unique ...",
+          "fetched": true,
+          "text": "Digital Collections : Search Objects : unknown language article unique .... 0 Objects Search: unknown language article unique flag ddc 633 bielefeld university 2020"
+        },
+        {
+          "score": 0.9999,
+          "url": "https://wanghao.in/paper/ICML26_MASProVe.pdf",
+          "title": "MAS-ProVe: Understanding the Process Verification of Multi-Agent ...",
+          "fetched": false,
+          "text": "MAS-ProVe: Understanding the Process Verification of Multi-Agent .... Question: Under DDC 633 on Bielefeld University Library's BASE, as of 2020, from what country was the unknown language article with a flag unique from the ..."
+        },
+        {
+          "score": 0.998,
+          "url": "https://www.citm.upc.edu/blog/?s=Under+DDC+633+on+Bielefeld+University+Library%27s+BASE+as+of+2020+from+what+country+was+the+unknown+language+article+with+a+flag+unique+from+the+others+site%3Aedu",
+          "title": "Under DDC 633 on Bielefeld University Library's BASE as of 2020 from ...",
+          "fetched": false,
+          "text": "Under DDC 633 on Bielefeld University Library's BASE as of 2020 from .... Sorry, but nothing matched your search terms. Please try again with some different keywords. Search for:"
+        }
+      ],
+      "timings": {
+        "search": 1.561,
+        "rerank_snippets": 0.042,
+        "fetch": 4.017,
+        "rerank_chunks": 0.091,
+        "total": 5.713
+      }
+    },
+    {
+      "task_id": "b415aba4-4b68-4fc6-9b89-2c812e55a3e1",
+      "expected": "diamond",
+      "question": "In Nature journal's Scientific Reports conference proceedings from 2012, in the article that did not mention plasmons or plasmonics, what nano-compound is studied? Don't use the prefix nano in your answer if there is one.",
+      "hit": false,
+      "matches": [],
+      "results": [
+        {
+          "score": 1.0004,
+          "url": "https://news.ycombinator.com/item?id=42914457",
+          "title": "> In Nature journal's Scientific Reports conference proceedings from ...",
+          "fetched": true,
+          "text": "> In Nature journal's Scientific Reports conference proceedings from .... > In Nature journal's Scientific Reports conference proceedings from 2012, in the article that did not mention plasmons or plasmonics, what nano-compound is studied?"
+        },
+        {
+          "score": 0.9986,
+          "url": "https://openai.com/index/introducing-deep-research/",
+          "title": "Introducing deep research - OpenAI",
+          "fetched": true,
+          "text": "Introducing deep research - OpenAI. Feb 2, 2025 ... In Nature journal's Scientific Reports conference proceedings from 2012, in the article that did not mention plasmons or plasmonics, what nano- ..."
+        },
+        {
+          "score": 0.9969,
+          "url": "https://cdn.openai.com/API/docs/deep_research_blog.pdf",
+          "title": "Introducing deep research | OpenAI",
+          "fetched": true,
+          "text": "Introducing deep research | OpenAI. Feb 21, 2025 ... 2012, in the article that did not mention plasmons or plasmonics, what nano-compound is studied? Don't use the prefix nano in your answer if."
+        },
+        {
+          "score": 0.9853,
+          "url": "https://news.ycombinator.com/item?id=42913251",
+          "title": "Introducing deep research - Hacker News",
+          "fetched": false,
+          "text": "Introducing deep research - Hacker News. Feb 3, 2025 ... ... Scientific Reports conference proceedings from 2012, in the article that did not mention plasmons or plasmonics, what nano-compound is studied?"
+        }
+      ],
+      "timings": {
+        "search": 1.34,
+        "rerank_snippets": 0.032,
+        "fetch": 4.008,
+        "rerank_chunks": 0.046,
+        "total": 5.428
+      }
+    }
+  ]
+}

@@ -21,6 +21,7 @@ services:
     environment:
       - SEARX_URL=http://searxng:8080/search
       - JINA_API_KEY=${JINA_API_KEY}
+      - ANSWER_GATE=${ANSWER_GATE:-0}
     depends_on:
       - searxng
     restart: unless-stopped

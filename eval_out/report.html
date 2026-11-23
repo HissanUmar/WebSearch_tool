@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Search Tool Eval — 5/10</title>
+<style>
+  :root { --green:#0a7d32; --red:#b3261e; --amber:#a15c00; --bg:#0f1115; --card:#181b22; --line:#2a2f3a; --fg:#e6e6e6; }
+  body { font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--fg); margin:0; padding:24px; }
+  h1 { margin:0 0 4px; font-size:20px; }
+  .summary { color:#9aa4b2; margin-bottom:24px; }
+  section.question { background:var(--card); border-left:4px solid var(--line); border-radius:6px; padding:14px 16px; margin-bottom:16px; }
+  section.question.hit { border-left-color:var(--green); }
+  section.question.miss { border-left-color:var(--red); }
+  section.question.error { border-left-color:var(--amber); }
+  header { display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; margin-bottom:8px; }
+  .badge { font-weight:700; padding:2px 8px; border-radius:4px; font-size:12px; }
+  .badge.hit { background:#10361f; color:#7ee2a8; }
+  .badge.miss { background:#3a1412; color:#ff9c95; }
+  .badge.error { background:#3a2a10; color:#ffc36b; }
+  .taskid { color:#9aa4b2; font-family:ui-monospace,monospace; }
+  .expected code { background:#20242e; padding:1px 6px; border-radius:3px; color:#ffd479; }
+  .timings { color:#6f7a8a; font-size:12px; margin-left:auto; font-family:ui-monospace,monospace; }
+  .qtext { color:#c8d0da; margin:6px 0 12px; }
+  .results { display:flex; flex-direction:column; gap:10px; }
+  .result { background:#11141a; border:1px solid var(--line); border-radius:5px; padding:10px; }
+  .result.contains { border-color:var(--green); box-shadow:0 0 0 1px var(--green) inset; }
+  .result .meta { display:flex; gap:10px; align-items:baseline; margin-bottom:6px; flex-wrap:wrap; }
+  .result a { color:#7fb8ff; text-decoration:none; }
+  .result a:hover { text-decoration:underline; }
+  .score { font-family:ui-monospace,monospace; color:#ffd479; }
+  .fetched { font-size:11px; color:#9aa4b2; border:1px solid var(--line); padding:0 6px; border-radius:10px; }
+  .result pre { margin:0; white-space:pre-wrap; word-break:break-word; font:13px/1.45 ui-monospace,monospace; color:#c8d0da; max-height:260px; overflow:auto; }
+  mark { background:#ffd479; color:#111; padding:0 2px; border-radius:2px; }
+  .error { color:#ff9c95; margin:8px 0; font-family:ui-monospace,monospace; }
+</style></head><body>
+<h1>Search Tool Eval</h1>
+<div class="summary">
+  5/10 questions have the expected answer in at least one returned window ·
+  generated 2026-11-23T18:37:25
+</div>
+
+        <section class="question miss">
+          <header>
+            <span class="badge miss">❌ MISS</span>
+            <span class="taskid">e1fc63a2</span>
+            <span class="expected">expected: <code>17</code></span>
+            <span class="timings">search=3.345s · rerank_snippets=0.152s · fetch=4.02s · rerank_chunks=0.02s · total=7.541s</span>
+          </header>
+          <p class="qtext">If Eliud Kipchoge could maintain his record-making marathon pace indefinitely, how many thousand hours would it take him to run the distance between the Earth and the Moon its closest approach? Please use the minimum perigee value on the Wikipedia page for the Moon when carrying out your calculation…</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.001</span>
+                <span class="fetched">fetched</span>
+                <a href="https://support.google.com/youtubetv/answer/9545212?hl=en" target="_blank">Report an unauthorized charge - YouTube TV Help - Google Help</a>
+              </div>
+              <pre>Report an unauthorized charge - YouTube TV Help - Google Help. For example, a YouTube TV charge will appear as GOOGLE*YouTube TV. If the charge in question isn't in one of these formats, it …</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.001</span>
+                <span class="fetched">fetched</span>
+                <a href="https://support.google.com/youtube/answer/6159254?hl=nl" target="_blank">Geen toegang tot YouTube</a>
+              </div>
+              <pre>Geen toegang tot YouTube. Als je openbare video's op YouTube hebt staan, kun je deze nog steeds verbergen of verwijderen, ook al heb je geen toegang tot …</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.001</span>
+                <span class="fetched">fetched</span>
+                <a href="https://support.google.com/youtube/troubleshooter/13572679?hl=en-GB" target="_blank">Get help from YouTube support</a>
+              </div>
+              <pre>Get help from YouTube support. What can we help with? Watching videos on YouTube Something that I purchased My YouTube account or channel Content that I …</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.0</span>
+                <span class="fetched">snippet</span>
+                <a href="https://support.google.com/youtube/answer/161805?hl=es-419&amp;co=GENIE.Platform%3DDesktop" target="_blank">Cómo crear una cuenta en YouTube</a>
+              </div>
+              <pre>Cómo crear una cuenta en YouTube. Para acceder a YouTube, debes crear una cuenta de Google. Con&amp;nbsp;ella, podrás usar&amp;nbsp;muchas funciones de …</pre>
+            </div></div>
+        </section>
+        <section class="question hit">
+          <header>
+            <span class="badge hit">✅ HIT</span>
+            <span class="taskid">8e867cd7</span>
+            <span class="expected">expected: <code>3</code></span>
+            <span class="timings">search=1.648s · rerank_snippets=0.032s · fetch=0.671s · rerank_chunks=0.015s · total=2.366s</span>
+          </header>
+          <p class="qtext">How many studio albums were published by Mercedes Sosa between 2000 and 2009 (included)? You can use the latest 2022 version of english wikipedia.</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.9997</span>
+                <span class="fetched">snippet</span>
+                <a href="http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEinagrVBHIUx4C-uBtxQWed8pA1eCV4XpP_z8jfXsbfCdAE_e4gjt9DhLZT4PQeeKG4Os0SNBBcb4gxeTyoW8XgznvJ4s1hEPULpwfDR1z22qsKkaUtrCio4gPsV-VzHc_lP2qfGlUBLUCi5Hav4mpWGz3kgdbjIpPTnZiSxVyMa0peV0nIZWu2fWEKKASR_Weod-ZJB4U1UA" target="_blank">Mercedes Sosa's Studio Albums 2000-2009 | Shared Grok Conversation</a>
+              </div>
+              <pre>Mercedes Sosa's Studio Albums 2000-2009 | Shared Grok Conversation. How many studio albums were published by Mercedes Sosa between 2000 and 2009 (included)? You can use</pre>
+            </div>
+            <div class="result contains">
+              <div class="meta">
+                <span class="score">0.5062</span>
+                <span class="fetched">snippet</span>
+                <a href="http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEgjvaw8Rs0rsQd9iRah-xRWOW3dGAJeJlp8YH8-gZ6llBvZQkkvdnz0uAn-lX6c-ilBGea1S_XJpdMCjlQkERLDRMJuYecV4SitKSgNaqzSe0IgUwsCA-kEf_QrVNrLh31RCgmZ6vw2EhFS20AiX6_W8v26sSEzt1lwQVOrnJK0nQEGvmOEmZ5B53xWcl4yvX2ynAGR27OgM" target="_blank">Mercedes Sosa - albums - Muziekweb</a>
+              </div>
+              <pre>Mercedes Sosa - albums - Muziekweb. Haydée Mercedes "La Negra" Sosa (; 9 July 19<mark>3</mark>5Mercedes Sosa at BrainyHistory.com – 4 October 2009) was an Argentine singer who was popular throughout Latin America and many countries outside the region. With her roots in Argentine folk music, Sosa became one of the preeminent exponents of ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.4089</span>
+                <span class="fetched">snippet</span>
+                <a href="http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEgDUNDe9pdrpxYspjNAjZgg-KwfdR35zXCU6YcxIBA_iFIlMbv4YTe24HvxlKX_WRWxfjgdipPj3r8pmQgYgDq7013fjxkPitrZ2Q72LLn4SQ5IaiP1UXbiqxLHeMSgkSh8BPRrFnjfSEy22wIR-8bsi2kSiHkIdTJwe3Cc4ZGgA" target="_blank">Mercedes Sosa - Wikipedia</a>
+              </div>
+              <pre>Mercedes Sosa - Wikipedia. Her career spanned four decades ... 2011), including a Latin Grammy Lifetime Achievement Award in 2004 and two posthumous Latin Grammy Award for Best Folk Album in 2009 and 2011. She won the Premio Gardel in 2000, the main musical award in Argentina. She served as an ambassador for UNICEF. Sosa was born on ...</pre>
+            </div>
+            <div class="result contains">
+              <div class="meta">
+                <span class="score">0.1344</span>
+                <span class="fetched">snippet</span>
+                <a href="http:///go/v1/ARSrSz4re152awRBQAHGL8G7RpYW_zRtFtOXHIpEga-XLw4j17TefQM6mzQAnNK1O9qmrX7nH2K0LpbzmUIoRb7csJYJtQ6CQ7m2C2AeyuLuDGt_F8jMtoxDhwwExQbot9nhECiWMtRB5bKgUaaBzkIk-SyO07PrGoXMkTcFjjKFBdm4F3VJdo6uMzJsyl4CcyhwJ_DlZXzZQ8JBvwfqXwKoTZ1rgie6lFq40gE" target="_blank">Mercedes Sosa — Biography, Discography, Albums &amp; Expert Reviews ...</a>
+              </div>
+              <pre>Mercedes Sosa — Biography, Discography, Albums &amp; Expert Reviews .... In fall 2000, Sosa won a Grammy for Best Folk Album for Misa Criolla at the first annual Latin Grammy Awards, and again in 200<mark>3</mark> and 2006 for Acústico and Corazón Libre, respectively. On October 4, 2009, after receiving multiple Grammy nominations for the album, Cantora, Mercedes Sosa passed away after a long battle with kidney disease.</pre>
+            </div></div>
+        </section>
+        <section class="question hit">
+          <header>
+            <span class="badge hit">✅ HIT</span>
+            <span class="taskid">ec09fa32</span>
+            <span class="expected">expected: <code>3</code></span>
+            <span class="timings">search=1.596s · rerank_snippets=0.117s · fetch=4.02s · rerank_chunks=0.04s · total=5.775s</span>
+          </header>
+          <p class="qtext">You have been selected to play the final round of the hit new game show 'Pick That Ping-Pong'. A device consisting of a winding clear ramp and a series of pistons controls the outcome of the game. The ramp begins with 100 numbered ping-pong balls, arranged in ascending order from 1 to 100. Which bal…</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.7572</span>
+                <span class="fetched">snippet</span>
+                <a href="https://proceedings.iclr.cc/paper_files/paper/2026/file/da8860a2fe8ddb7589136853bcc313fc-Paper-Conference.pdf" target="_blank">VALIDATABLE AGENT TRAJECTORY VIA TEST-TIME EXPLORATION</a>
+              </div>
+              <pre>VALIDATABLE AGENT TRAJECTORY VIA TEST-TIME EXPLORATION. ... final round of the hit new game show "Pick That Ping-. Pong". In this round ... A device consisting of a winding clear ramp and a series of pistons controls the ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.001</span>
+                <span class="fetched">fetched</span>
+                <a href="https://research.google.com/youtube8m/csv/2/vocabulary.csv" target="_blank">link - Google Research</a>
+              </div>
+              <pre>link - Google Research. ... Game,https://en.wikipedia.org/wiki/Game,Games,,,"A game is structured form of play, usually undertaken for enjoyment and sometimes used as an educational ...</pre>
+            </div>
+            <div class="result contains">
+              <div class="meta">
+                <span class="score">0.0</span>
+                <span class="fetched">snippet</span>
+                <a href="https://issuu.com/latitude38/docs/latitude38210dunse" target="_blank">Latitude 38 December 1994 - Issuu</a>
+              </div>
+              <pre>Latitude <mark>3</mark>8 December 1994 - Issuu. Dec 1, 1994 ... Charter a New Beneteau We have many new Beneteaus joining the fleet. They are the boats chosen first to charter by sailors the world over.</pre>
+            </div>
+            <div class="result contains">
+              <div class="meta">
+                <span class="score">0.0</span>
+                <span class="fetched">snippet</span>
+                <a href="https://issuu.com/latitude38/docs/latitude38210dunse" target="_blank">Latitude 38 December 1994 - Issuu</a>
+              </div>
+              <pre>Latitude <mark>3</mark>8 December 1994 - Issuu. Dec 1, 1994 ... Charter a New Beneteau We have many new Beneteaus joining the fleet. They are the boats chosen first to charter by sailors the world over.</pre>
+            </div></div>
+        </section>
+        <section class="question hit">
+          <header>
+            <span class="badge hit">✅ HIT</span>
+            <span class="taskid">5d0080cb</span>
+            <span class="expected">expected: <code>0.1777</code></span>
+            <span class="timings">search=1.651s · rerank_snippets=0.047s · fetch=4.009s · rerank_chunks=0.013s · total=5.721s</span>
+          </header>
+          <p class="qtext">What was the volume in m^3 of the fish bag that was calculated in the University of Leicester paper 'Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?'</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">1.0002</span>
+                <span class="fetched">fetched</span>
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/40594/44555" target="_blank">Scope Delineation Before Localization: A Two-Stage Framework for ...</a>
+              </div>
+              <pre>Scope Delineation Before Localization: A Two-Stage Framework for .... the volume in m3 of the fish bag calculated in the Univer- sity of Leicester paper 'Can Hiccup Supply Enough Fish to. Maintain a Dragon's Diet?”' The ground ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.9996</span>
+                <span class="fetched">snippet</span>
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3797113" target="_blank">Spectrum-Based Failure Attribution for Multi-agent Systems</a>
+              </div>
+              <pre>Spectrum-Based Failure Attribution for Multi-agent Systems. Aug 1, 2025 ... m3 of the fish bag that was calculated in the university of Leicester paper 'Can Hiccup Supply. Enough Fish to Maintain a Dragon's Diet?”'.</pre>
+            </div>
+            <div class="result contains">
+              <div class="meta">
+                <span class="score">0.9969</span>
+                <span class="fetched">fetched</span>
+                <a href="https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496" target="_blank">Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?</a>
+              </div>
+              <pre>Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?. Mar 31, 2017 ... The bag used to provide food was calculated as having a capacity of. <mark>0.1777</mark> m3, and could hold 56 Atlantic salmon and 13. Icelandic cod. Hiccup ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.9968</span>
+                <span class="fetched">snippet</span>
+                <a href="https://journals.le.ac.uk/index.php/jist/article/view/733/684" target="_blank">View of Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?</a>
+              </div>
+              <pre>View of Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?. Amal DouaThe Centre for Interdisciplinary Science, University of Leicester ... Size of the bagHiccup is said to be 1.625 m tall [6], and using average male ...</pre>
+            </div></div>
+        </section>
+        <section class="question hit">
+          <header>
+            <span class="badge hit">✅ HIT</span>
+            <span class="taskid">46719c30</span>
+            <span class="expected">expected: <code>Mapping Human Oriented Information to Software Agents for Online Systems Usage</code></span>
+            <span class="timings">search=1.503s · rerank_snippets=0.075s · fetch=3.208s · rerank_chunks=0.03s · total=4.817s</span>
+          </header>
+          <p class="qtext">Of the authors (First M. Last) that worked on the paper 'Pie Menus or Linear Menus, Which Is Better?' in 2015, what was the title of the first paper authored by the one that had authored prior papers?</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">1.0006</span>
+                <span class="fetched">fetched</span>
+                <a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/48dcc43a534c5b582f9d0fdb778e9b84-Paper-Conference.pdf" target="_blank">Optimized Workforce Learning - OWL - NIPS</a>
+              </div>
+              <pre>Optimized Workforce Learning - OWL - NIPS. Last) that worked on the paper “Pie Menus or Linear Menus, ... ” in 2015, what was the title of the first paper authored by the one that had authored prior papers ...</pre>
+            </div>
+            <div class="result contains">
+              <div class="meta">
+                <span class="score">0.8857</span>
+                <span class="fetched">snippet</span>
+                <a href="http:///go/v1/AcOJwmDHKsDeawRBQAHwheTQZySCvxUdLcPeZqJVglwuMj76hvjEuRSG18TiyphlPevAFniOyzo9w6IHzyv61EMj2uDqVHek6AJZ3R0mceI3dVk_IvSoTZu942HBZg8A3RAQMh-XAtxQtl3dYzS6YFk56RmsWnI8tyrS6FWn3ohnL0icxibDFzOtaEn5cnbqJbKEZD_5EtfHtH8vqya213kLArSBBmEC00FXOA1teAnXMK9O_NkMsQQ" target="_blank">WebVoyager/data/GAIA_web.jsonl at main · MinorJerry/WebVoyager</a>
+              </div>
+              <pre>WebVoyager/data/GAIA_web.jsonl at main · MinorJerry/WebVoyager. {"task_id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb", "Level": 1, "Final answer": "<mark>Mapping Human Oriented Information to Software Agents for Online Systems Usage</mark>", "id": "level1-4", "web": "https://www.google.com/", "ques": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?"}</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.4651</span>
+                <span class="fetched">snippet</span>
+                <a href="https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus,-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2" target="_blank">Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar</a>
+              </div>
+              <pre>Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar. This paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail. This paper is about a continuing investigation aiming to find o ut which menu type is more useable on a web site or application.</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.1343</span>
+                <span class="fetched">snippet</span>
+                <a href="http:///go/v1/AcOJwmDHKsDeawRBQAHwheTQZySCvxUdLcPeZqJVg83DWjJQegJrFP1U_xd-3YOt7dLNukhNVNg6Te4CczCw9LzhKb903MhU8zSgtAej7CNHhpEDs_k8jEJQNSyE0enZNhJEGcSsa2P8jvg9HOSsAiTGZPFxWIu4kJrJSbZ0gC1GeJUpKdJhW1p9a_RekMpQjJZq9M6k5UoQ6TbHCw" target="_blank">Pietro Murano - Publications</a>
+              </div>
+              <pre>Pietro Murano - Publications. Murano, Pietro &amp; Khan, Iram N. (2015) Pie Menus or Linear Menus, Which Is Better? - PDF, Journal of Emerging Trends in Computing and Information Sciences, Vol.</pre>
+            </div></div>
+        </section>
+        <section class="question miss">
+          <header>
+            <span class="badge miss">❌ MISS</span>
+            <span class="taskid">4b6bb5f7</span>
+            <span class="expected">expected: <code>THE CASTLE</code></span>
+            <span class="timings">search=1.234s · rerank_snippets=0.061s · fetch=4.018s · rerank_chunks=0.012s · total=5.326s</span>
+          </header>
+          <p class="qtext">In Series 9, Episode 11 of Doctor Who, the Doctor is trapped inside an ever-shifting maze. What is this location called in the official script for the episode? Give the setting exactly as it appears in the first scene heading.</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.4783</span>
+                <span class="fetched">snippet</span>
+                <a href="https://tardis.guide/story/heaven-sent/" target="_blank">Heaven Sent · Doctor Who S9 • Episode 11 · TARDIS Guide</a>
+              </div>
+              <pre>Heaven Sent · Doctor Who S9 • Episode 11 · TARDIS Guide. As if the death of his best friend wasn't enough, the Doctor's situation has only gotten worse. What initially started as an attempt to help clear someone of a false murder charge has evolved into to something much worse. Now trapped in an old rusty castle in the middle of an ocean, the Time Lord is being stalked by a mysterious creature that only pauses when he gives up his deepest ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.0751</span>
+                <span class="fetched">fetched</span>
+                <a href="https://tardis.guide/story/heaven-sent/transcript/" target="_blank">Transcript for episode 'Heaven Sent' • Doctor Who</a>
+              </div>
+              <pre>Transcript for episode 'Heaven Sent' • Doctor Who. As if the death of his best friend wasn't enough, the Doctor's situation has only gotten worse. What initially started as an attempt to help clear someone of a false murder charge has evolved into to something much worse. Now trapped in an old rusty castle in the middle of an ocean, the Time Lord is being stalked by a mysterious creature that only pauses when he gives up his deepest ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.0211</span>
+                <span class="fetched">snippet</span>
+                <a href="https://tardis.fandom.com/wiki/Heaven_Sent_(TV_story)" target="_blank">Heaven Sent (TV story) | Tardis | Fandom</a>
+              </div>
+              <pre>Heaven Sent (TV story) | Tardis | Fandom. Heaven Sent was the eleventh and penultimate episode of series 9 of Doctor Who. The episode shows the Doctor dealing with and grieving over the death of Clara Oswald, whom he lost to the Quantum Shade in the previous episode. The vast majority of the episode includes just the Doctor by himself with no other characters present, save the veiled figure that menaces him throughout. Jenna Coleman ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.0161</span>
+                <span class="fetched">snippet</span>
+                <a href="https://tardis.fandom.com/wiki/Heaven_Sent_(TV_story)" target="_blank">Heaven Sent (TV story) | Tardis | Fandom</a>
+              </div>
+              <pre>Heaven Sent (TV story) | Tardis | Fandom. Heaven Sent was the eleventh and penultimate episode of series 9 of Doctor Who. The episode shows the Doctor dealing with and grieving over the death of Clara Oswald, whom he lost to the Quantum Shade in the previous episode. The vast majority of the episode includes just the Doctor by himself with no other characters present, save the veiled figure that menaces him throughout. Jenna Coleman ...</pre>
+            </div></div>
+        </section>
+        <section class="question miss">
+          <header>
+            <span class="badge miss">❌ MISS</span>
+            <span class="taskid">dc28cf18</span>
+            <span class="expected">expected: <code>2</code></span>
+            <span class="timings">search=1.651s · rerank_snippets=0.073s · fetch=4.018s · rerank_chunks=0.045s · total=5.788s</span>
+          </header>
+          <p class="qtext">My family reunion is this week, and I was assigned the mashed potatoes to bring. The attendees include my married mother and father, my twin brother and his family, my aunt and her family, my grandma and her brother, her brother's daughter, and his daughter's family. All the adults but me have been …</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.0011</span>
+                <span class="fetched">fetched</span>
+                <a href="https://www.doyou10q.com/answer/2018/3?full_list=true" target="_blank">Think about a major milestone that happened with ... - Do You 10Q?</a>
+              </div>
+              <pre>Think about a major milestone that happened with ... - Do You 10Q?. There have been so many! My uncle got cancer and married, my brother married and got a baby with his wife, my family-in-law had two cat funerals and one ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.0002</span>
+                <span class="fetched">snippet</span>
+                <a href="https://www.middlebury.edu/alumni-and-families/ways-engage/reunion/highlights" target="_blank">Reunion Highlights - Middlebury College</a>
+              </div>
+              <pre>Reunion Highlights - Middlebury College. While most of their families are incredibly supportive especially fathers and brothers, we have ... And that brave woman, she decided to bring risk to her family ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.0002</span>
+                <span class="fetched">snippet</span>
+                <a href="https://www.math.ubc.ca/~cayf/Gockley.pdf" target="_blank">Descendants and Ancestors of Samuel Carpenter Gockley</a>
+              </div>
+              <pre>Descendants and Ancestors of Samuel Carpenter Gockley. His sister Hannah, a pediatrician, and her husband lived for several ... Michelle's extended family, which includes her brother, now a doctor, her father,.</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.0001</span>
+                <span class="fetched">snippet</span>
+                <a href="https://www.literacymn.org/sites/default/files/journeys_2015_online.pdf" target="_blank">Journeys - Literacy Minnesota</a>
+              </div>
+              <pre>Journeys - Literacy Minnesota. who I love: my father, mother, brother, oldest daughter, and Guadalupe. Some ... married my mom, who is the last child in her family. He has brown eyes ...</pre>
+            </div></div>
+        </section>
+        <section class="question hit">
+          <header>
+            <span class="badge hit">✅ HIT</span>
+            <span class="taskid">b816bfce</span>
+            <span class="expected">expected: <code>fluffy</code></span>
+            <span class="timings">search=1.316s · rerank_snippets=0.051s · fetch=4.015s · rerank_chunks=0.02s · total=5.403s</span>
+          </header>
+          <p class="qtext">In Emily Midkiff's June 2014 article in a journal named for the one of Hreidmar's sons that guarded his house, what word was quoted from two different authors in distaste for the nature of dragon depictions?</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">1.0008</span>
+                <span class="fetched">fetched</span>
+                <a href="https://www.lespac.com/en/montreal/emily-midkiff-june-2014-article-journal-named-for-hreidmar-son-that-guarded-his-house-dragon-depictions-word-quoted-authors-distaste-dragon-depictions-what-word_aZ232IkVtaWx5IE1pZGtpZmYiICJKdW5lIDIwMTQiIGFydGljbGUgImpvdXJuYWwiICJuYW1lZCBmb3IiICJIcmVpZG1hciIgInNvbiIgInRoYXQgZ3VhcmRlZCBoaXMgaG91c2UiIGRyYWdvbiBkZXBpY3Rpb25zIHdvcmQgcXVvdGVkIGF1dGhvcnMgZGlzdGFzdGUgZHJhZ29uIGRlcGljdGlvbnMgd2hhdCB3b3Jkg17567k1R1.jsa" target="_blank">"Emily Midkiff" "June 2014" article "journal" "named for" "Hreidmar ...</a>
+              </div>
+              <pre>"Emily Midkiff" "June 2014" article "journal" "named for" "Hreidmar .... Whether you want to sell or buy something over the term "Emily Midkiff" "June 2014" article "journal" "named for" "Hreidmar" "son" "that guarded his house" dragon depictions word quoted authors distaste dragon depictions what word, think of LesPAC, the best classified ads site in Quebec to sell, buy or rent new or used items.</pre>
+            </div>
+            <div class="result contains">
+              <div class="meta">
+                <span class="score">0.9989</span>
+                <span class="fetched">snippet</span>
+                <a href="https://www.seaart.ai/search/%22fluffy%22+word+quoted+two+authors+distaste+nature+dragon+depictions+Emily+Midkiff+article+Fafnir+journal+named+one+of+Hreidmar's+sons+guarded+house+June+2014+%22Dragons+are+Tricksy%22" target="_blank">"fluffy"+word+quoted+two+authors+distaste+nature+dragon+depictions ...</a>
+              </div>
+              <pre>"<mark>fluffy</mark>"+word+quoted+two+authors+distaste+nature+dragon+depictions .... Explore over thousands of Al-generated artworks about "<mark>fluffy</mark>"+word+quoted+two+authors+distaste+nature+dragon+depictions+Emily+Midkiff+article+Fafnir+journal+named+one+of+Hreidmar's+sons+guarded+house+June+2014+"Dragons+are+Tricksy" in SeaArt!</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.9989</span>
+                <span class="fetched">fetched</span>
+                <a href="https://www.lespac.com/montreal/emily-midkiff-article-journal-named-for-hreidmar-sons-june-2014_aZ095IkVtaWx5IiBNaWRraWZmIGFydGljbGUgImpvdXJuYWwgbmFtZWQgZm9yIiAiSHJlaWRtYXIiICJzb25zIiBKdW5lIDIwMTQg17567k1R1.jsa" target="_blank">"Emily" Midkiff article "journal named for" "Hreidmar" "sons" June 2014 ...</a>
+              </div>
+              <pre>"Emily" Midkiff article "journal named for" "Hreidmar" "sons" June 2014 .... Que vous souhaitiez vendre ou acheter quelque chose par rapport au terme "Emily" Midkiff article "journal named for" "Hreidmar" "sons" June 2014, pensez à LesPAC, le meilleur site d'annonces classées au Québec pour vendre, acheter ou louer des articles neufs ou usagés.</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.9969</span>
+                <span class="fetched">snippet</span>
+                <a href="https://letterboxd.com/search/articles/Emily+Midkiff+June+2014+article+Hreidmar's+sons+journal+name+(site:academic.edu+OR+site:jstor.org+OR+site:projectmuse.com)/" target="_blank">Search results for Emily Midkiff June 2014 article Hreidmar's sons ...</a>
+              </div>
+              <pre>Search results for Emily Midkiff June 2014 article Hreidmar's sons .... Showing matches for "Emily Midkiff June 2014 article Hreidmar's sons journal name (site:academic.edu OR site:jstor.org OR site:projectmuse.com)" Show more results</pre>
+            </div></div>
+        </section>
+        <section class="question miss">
+          <header>
+            <span class="badge miss">❌ MISS</span>
+            <span class="taskid">72e110e7</span>
+            <span class="expected">expected: <code>Guatemala</code></span>
+            <span class="timings">search=1.561s · rerank_snippets=0.042s · fetch=4.017s · rerank_chunks=0.091s · total=5.713s</span>
+          </header>
+          <p class="qtext">Under DDC 633 on Bielefeld University Library's BASE, as of 2020, from what country was the unknown language article with a flag unique from the others?</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">1.0007</span>
+                <span class="fetched">fetched</span>
+                <a href="https://www.linkedin.com/jobs/solution-the-unknown-language-article-with-a-flag-unique-from-the-others-ddc-633-base-bielefeld-library-2020-country-article-unknown-language-flag-unique-others-country-was-the-country-was-the-unknown-language-article-with-a-flag-unique-from-the-others-under-ddc-633-on-bielefeld-university-library%27s-base-as-of-2020-from-what-country-was-the-unknown-language-article-with-a-flag-unique-from-the-others%3F-the-country-was...-jobs" target="_blank">4,054,000+ Solution The Unknown Language Article With A Flag Unique ...</a>
+              </div>
+              <pre>4,054,000+ Solution The Unknown Language Article With A Flag Unique .... Today&amp;rsquo;s top 4,054,000+ Solution The Unknown Language Article With A Flag Unique From The Others Ddc 633 Base Bielefeld Library 2020 Country Article Unknown Language Flag Unique Others ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">1.0005</span>
+                <span class="fetched">fetched</span>
+                <a href="https://digitalcollections.archives.nysed.gov/index.php/Search/objects?search=unknown+language+article+unique+flag+DDC+633+Bielefeld+University+2020" target="_blank">Digital Collections : Search Objects : unknown language article unique ...</a>
+              </div>
+              <pre>Digital Collections : Search Objects : unknown language article unique .... 0 Objects Search: unknown language article unique flag ddc 633 bielefeld university 2020</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.9999</span>
+                <span class="fetched">snippet</span>
+                <a href="https://wanghao.in/paper/ICML26_MASProVe.pdf" target="_blank">MAS-ProVe: Understanding the Process Verification of Multi-Agent ...</a>
+              </div>
+              <pre>MAS-ProVe: Understanding the Process Verification of Multi-Agent .... Question: Under DDC 633 on Bielefeld University Library's BASE, as of 2020, from what country was the unknown language article with a flag unique from the ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.998</span>
+                <span class="fetched">snippet</span>
+                <a href="https://www.citm.upc.edu/blog/?s=Under+DDC+633+on+Bielefeld+University+Library%27s+BASE+as+of+2020+from+what+country+was+the+unknown+language+article+with+a+flag+unique+from+the+others+site%3Aedu" target="_blank">Under DDC 633 on Bielefeld University Library's BASE as of 2020 from ...</a>
+              </div>
+              <pre>Under DDC 633 on Bielefeld University Library's BASE as of 2020 from .... Sorry, but nothing matched your search terms. Please try again with some different keywords. Search for:</pre>
+            </div></div>
+        </section>
+        <section class="question miss">
+          <header>
+            <span class="badge miss">❌ MISS</span>
+            <span class="taskid">b415aba4</span>
+            <span class="expected">expected: <code>diamond</code></span>
+            <span class="timings">search=1.34s · rerank_snippets=0.032s · fetch=4.008s · rerank_chunks=0.046s · total=5.428s</span>
+          </header>
+          <p class="qtext">In Nature journal's Scientific Reports conference proceedings from 2012, in the article that did not mention plasmons or plasmonics, what nano-compound is studied? Don't use the prefix nano in your answer if there is one.</p>
+          
+          <div class="results">
+            <div class="result ">
+              <div class="meta">
+                <span class="score">1.0004</span>
+                <span class="fetched">fetched</span>
+                <a href="https://news.ycombinator.com/item?id=42914457" target="_blank">&gt; In Nature journal's Scientific Reports conference proceedings from ...</a>
+              </div>
+              <pre>&gt; In Nature journal's Scientific Reports conference proceedings from .... &gt; In Nature journal's Scientific Reports conference proceedings from 2012, in the article that did not mention plasmons or plasmonics, what nano-compound is studied?</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.9986</span>
+                <span class="fetched">fetched</span>
+                <a href="https://openai.com/index/introducing-deep-research/" target="_blank">Introducing deep research - OpenAI</a>
+              </div>
+              <pre>Introducing deep research - OpenAI. Feb 2, 2025 ... In Nature journal's Scientific Reports conference proceedings from 2012, in the article that did not mention plasmons or plasmonics, what nano- ...</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.9969</span>
+                <span class="fetched">fetched</span>
+                <a href="https://cdn.openai.com/API/docs/deep_research_blog.pdf" target="_blank">Introducing deep research | OpenAI</a>
+              </div>
+              <pre>Introducing deep research | OpenAI. Feb 21, 2025 ... 2012, in the article that did not mention plasmons or plasmonics, what nano-compound is studied? Don't use the prefix nano in your answer if.</pre>
+            </div>
+            <div class="result ">
+              <div class="meta">
+                <span class="score">0.9853</span>
+                <span class="fetched">snippet</span>
+                <a href="https://news.ycombinator.com/item?id=42913251" target="_blank">Introducing deep research - Hacker News</a>
+              </div>
+              <pre>Introducing deep research - Hacker News. Feb 3, 2025 ... ... Scientific Reports conference proceedings from 2012, in the article that did not mention plasmons or plasmonics, what nano-compound is studied?</pre>
+            </div></div>
+        </section>
+</body></html>
